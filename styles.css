@@ -1,1 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section (Profile Image & Info) */
+.left-section {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.left-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.left-section h2, .left-section h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Right Section (About & Skills) */
+.right-section {
+    width: 70%;
+    padding: 20px;
+}
+
+.about-heading, .skills-heading {
+    border-bottom: 2px solid blue;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 70%;
+    height: 10px;
+    background-color: #ddd;
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+}
